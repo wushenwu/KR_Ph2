@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Teris_SDK - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Teris_SDK.res" /d "_DEBUG" "E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\Teris_SDK.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP417.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Teris_SDK.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\CGame.cpp"
+"E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\CShape.cpp"
+"E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\CUI.CPP"
+"E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\StdAfx.cpp"
+"E:\Programming\Git\Ph2\SDK\SelfNote\wbxu_20140702\Teris_SDK\Teris_SDK.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP417.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP418.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Teris_SDK.pdb" /debug /machine:I386 /out:"Debug/Teris_SDK.exe" /pdbtype:sept 
+.\Debug\CGame.obj
+.\Debug\CShape.obj
+.\Debug\CUI.OBJ
+.\Debug\StdAfx.obj
+.\Debug\Teris_SDK.obj
+.\Debug\Teris_SDK.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP418.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+CGame.cpp
+CShape.cpp
+CUI.CPP
+StdAfx.cpp
+Teris_SDK.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Teris_SDK.bsc"  .\Debug\CGame.sbr .\Debug\CShape.sbr .\Debug\CUI.SBR .\Debug\StdAfx.sbr .\Debug\Teris_SDK.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Teris_SDK.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
