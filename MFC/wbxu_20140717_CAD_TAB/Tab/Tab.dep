@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by Tab.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\Tab.cpp : \
+	".\StdAfx.h"\
+	".\Tab.h"\
+	".\TabDlg.h"\
+	
+
+.\Tab.rc : \
+	".\res\Tab.ico"\
+	".\res\Tab.rc2"\
+	
+
+.\TabDlg.cpp : \
+	".\StdAfx.h"\
+	".\Tab.h"\
+	".\TabDlg.h"\
+	

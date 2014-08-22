@@ -1,0 +1,46 @@
+# Microsoft Developer Studio Generated Dependency File, included by VC.mak
+
+.\ChildFrm.cpp : \
+	".\ChildFrm.h"\
+	".\StdAfx.h"\
+	".\VC.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	".\VC.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\VC.cpp : \
+	".\ChildFrm.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	".\VC.h"\
+	".\VCDoc.h"\
+	".\VCView.h"\
+	
+
+.\VC.rc : \
+	".\res\Toolbar.bmp"\
+	".\res\VC.ico"\
+	".\res\VC.rc2"\
+	".\res\VCDoc.ico"\
+	
+
+.\VCDoc.cpp : \
+	".\StdAfx.h"\
+	".\VC.h"\
+	".\VCDoc.h"\
+	
+
+.\VCView.cpp : \
+	".\StdAfx.h"\
+	".\VC.h"\
+	".\VCDoc.h"\
+	".\VCView.h"\
+	

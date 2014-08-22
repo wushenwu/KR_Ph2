@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by DDX.mak
+
+.\DDX.cpp : \
+	".\DDX.h"\
+	".\DDXDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\DDX.rc : \
+	".\res\DDX.ico"\
+	".\res\DDX.rc2"\
+	
+
+.\DDXDlg.cpp : \
+	".\DDX.h"\
+	".\DDXDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

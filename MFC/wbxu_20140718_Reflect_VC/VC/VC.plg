@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6DF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\MFC\Program\p20140718\wbxu_20140718\VC\BuildView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6DF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VC.pdb" /debug /machine:I386 /out:"Debug/VC.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\ClassView.obj
+.\Debug\FileView.obj
+.\Debug\MainFrm.obj
+.\Debug\ResView.obj
+.\Debug\StdAfx.obj
+.\Debug\VC.obj
+.\Debug\VCDoc.obj
+.\Debug\VCView.obj
+.\Debug\VC.res
+.\Debug\BuildView.obj
+.\Debug\DebugView.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E0.tmp"
+<h3>Output Window</h3>
+Compiling...
+BuildView.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E1.tmp" with contents
+[
+/nologo /o"Debug/VC.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\ClassView.sbr
+.\Debug\FileView.sbr
+.\Debug\MainFrm.sbr
+.\Debug\ResView.sbr
+.\Debug\VC.sbr
+.\Debug\VCDoc.sbr
+.\Debug\VCView.sbr
+.\Debug\BuildView.sbr
+.\Debug\DebugView.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6E1.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VC.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

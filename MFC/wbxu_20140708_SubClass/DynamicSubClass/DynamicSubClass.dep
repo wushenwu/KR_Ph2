@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by DynamicSubClass.mak
+
+.\DynamicSubClass.cpp : \
+	".\DynamicSubClass.h"\
+	".\DynamicSubClassDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\DynamicSubClass.rc : \
+	".\res\DynamicSubClass.ico"\
+	".\res\DynamicSubClass.rc2"\
+	
+
+.\DynamicSubClassDlg.cpp : \
+	".\DynamicSubClass.h"\
+	".\DynamicSubClassDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

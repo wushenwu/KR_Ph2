@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by WinMine.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\WinMine.cpp : \
+	".\StdAfx.h"\
+	".\WinMine.h"\
+	".\WinMineDlg.h"\
+	
+
+.\WinMine.rc : \
+	".\res\WinMine.ico"\
+	".\res\WinMine.rc2"\
+	
+
+.\WinMineDlg.cpp : \
+	".\StdAfx.h"\
+	".\WinMine.h"\
+	".\WinMineDlg.h"\
+	

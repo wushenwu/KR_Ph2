@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by FocusEnter.mak
+
+.\FocusEnter.cpp : \
+	".\FocusEnter.h"\
+	".\FocusEnterDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\FocusEnter.rc : \
+	".\res\FocusEnter.ico"\
+	".\res\FocusEnter.rc2"\
+	
+
+.\FocusEnterDlg.cpp : \
+	".\FocusEnter.h"\
+	".\FocusEnterDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by FileMgr.mak
+
+.\FileMgr.cpp : \
+	".\FileMgr.h"\
+	".\FileMgrDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\FileMgr.rc : \
+	".\res\FileMgr.ico"\
+	".\res\FileMgr.rc2"\
+	
+
+.\FileMgrDlg.cpp : \
+	".\FileMgr.h"\
+	".\FileMgrDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

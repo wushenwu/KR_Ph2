@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by PropertySheet.mak
+
+.\PropertySheet.cpp : \
+	".\PropertySheet.h"\
+	".\PropertySheetDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\PropertySheet.rc : \
+	".\res\PropertySheet.ico"\
+	".\res\PropertySheet.rc2"\
+	
+
+.\PropertySheetDlg.cpp : \
+	".\PropertySheet.h"\
+	".\PropertySheetDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

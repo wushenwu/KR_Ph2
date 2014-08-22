@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DDX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DDX.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\DDX.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DDX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\DDX.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\DDXDlg.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\MyButtonProxy.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\MyEditProxy.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\MyListBoxProxy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DDX.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\MFC\SelfNote\wbxu_20140704\DDX\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DDX.pdb" /debug /machine:I386 /out:"Debug/DDX.exe" /pdbtype:sept 
+.\Debug\DDX.obj
+.\Debug\DDXDlg.obj
+.\Debug\MyButtonProxy.obj
+.\Debug\MyEditProxy.obj
+.\Debug\MyListBoxProxy.obj
+.\Debug\StdAfx.obj
+.\Debug\DDX.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DDX.cpp
+DDXDlg.cpp
+MyButtonProxy.cpp
+MyEditProxy.cpp
+MyListBoxProxy.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DDX.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

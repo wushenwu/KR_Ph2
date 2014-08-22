@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WinMine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/WinMine.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programming\Git\Ph2\MFC\SelfNote\FocusEnter\WinMine\WinMine.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WinMine.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\MFC\SelfNote\FocusEnter\WinMine\mybtn.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\FocusEnter\WinMine\WinMine.cpp"
+"E:\Programming\Git\Ph2\MFC\SelfNote\FocusEnter\WinMine\WinMineDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/WinMine.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\MFC\SelfNote\FocusEnter\WinMine\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F9.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/WinMine.pdb" /debug /machine:I386 /out:"Debug/WinMine.exe" /pdbtype:sept  .\Debug\mybtn.obj .\Debug\StdAfx.obj .\Debug\WinMine.obj .\Debug\WinMineDlg.obj .\Debug\WinMine.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+mybtn.cpp
+WinMine.cpp
+WinMineDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/WinMine.bsc"  .\Debug\StdAfx.sbr .\Debug\mybtn.sbr .\Debug\WinMine.sbr .\Debug\WinMineDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+WinMine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

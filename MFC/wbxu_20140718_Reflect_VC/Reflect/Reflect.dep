@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by Reflect.mak
+
+.\Reflect.cpp : \
+	".\Reflect.h"\
+	".\ReflectDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\Reflect.rc : \
+	".\res\Reflect.ico"\
+	".\res\Reflect.rc2"\
+	
+
+.\ReflectDlg.cpp : \
+	".\Reflect.h"\
+	".\ReflectDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
