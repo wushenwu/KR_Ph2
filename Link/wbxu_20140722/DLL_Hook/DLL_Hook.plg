@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DLL_Hook - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DLL_HOOK_EXPORTS" /Fp"Debug/DLL_Hook.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Link\SelfNote\wbxu_20140722\DLL_Hook\DLL_Hook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/DLL_Hook.pdb" /debug /machine:I386 /def:".\DLL_Hook.def" /out:"Debug/DLL_Hook.dll" /implib:"Debug/DLL_Hook.lib" /pdbtype:sept 
+.\Debug\DLL_Hook.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBA.tmp"
+<h3>Output Window</h3>
+Compiling...
+DLL_Hook.cpp
+Linking...
+   Creating library Debug/DLL_Hook.lib and object Debug/DLL_Hook.exp
+
+
+
+<h3>Results</h3>
+DLL_Hook.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

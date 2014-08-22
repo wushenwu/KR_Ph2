@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by EnumWindow_GUI.mak
+
+.\EnumWindow_GUI.cpp : \
+	".\EnumWindow_GUI.h"\
+	".\EnumWindow_GUIDoc.h"\
+	".\EnumWindow_GUIView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	
+
+.\EnumWindow_GUI.rc : \
+	".\res\EnumWindow_GUI.ico"\
+	".\res\EnumWindow_GUI.rc2"\
+	".\res\EnumWindow_GUIDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\EnumWindow_GUIDoc.cpp : \
+	".\EnumWindow_GUI.h"\
+	".\EnumWindow_GUIDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\EnumWindow_GUIView.cpp : \
+	".\EnumWindow_GUI.h"\
+	".\EnumWindow_GUIDoc.h"\
+	".\EnumWindow_GUIView.h"\
+	".\StdAfx.h"\
+	
+
+.\MainFrm.cpp : \
+	".\EnumWindow_GUI.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

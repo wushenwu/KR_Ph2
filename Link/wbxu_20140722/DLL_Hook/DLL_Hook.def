@@ -1,0 +1,5 @@
+EXPORTS
+    Add         @11
+    GetData     @12 NONAME
+    MyShowMsg   @25
+    g_nData     @18

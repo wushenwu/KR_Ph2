@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by GameCheat.mak
+
+.\GameCheat.cpp : \
+	".\GameCheat.h"\
+	".\GameCheatDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\GameCheat.rc : \
+	".\res\GameCheat.ico"\
+	".\res\GameCheat.rc2"\
+	
+
+.\GameCheatDlg.cpp : \
+	".\GameCheat.h"\
+	".\GameCheatDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

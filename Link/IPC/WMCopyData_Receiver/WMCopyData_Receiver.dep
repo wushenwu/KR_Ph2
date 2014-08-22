@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by WMCopyData_Receiver.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\WMCopyData_Receiver.cpp : \
+	".\StdAfx.h"\
+	".\WMCopyData_Receiver.h"\
+	".\WMCopyData_ReceiverDlg.h"\
+	
+
+.\WMCopyData_Receiver.rc : \
+	".\res\WMCopyData_Receiver.ico"\
+	".\res\WMCopyData_Receiver.rc2"\
+	
+
+.\WMCopyData_ReceiverDlg.cpp : \
+	".\StdAfx.h"\
+	".\WMCopyData_Receiver.h"\
+	".\WMCopyData_ReceiverDlg.h"\
+	

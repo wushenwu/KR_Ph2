@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by RCT_Server.mak
+
+.\RCT_Server.cpp : \
+	".\RCT_Server.h"\
+	".\RCT_ServerDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\RCT_Server.rc : \
+	".\res\RCT_Server.ico"\
+	".\res\RCT_Server.rc2"\
+	
+
+.\RCT_ServerDlg.cpp : \
+	".\RCT_Server.h"\
+	".\RCT_ServerDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

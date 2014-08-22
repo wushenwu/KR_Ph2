@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MySpy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP321.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MySpy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140808_Spy\MySpy\MySpy\MySpy.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP321.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP322.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MySpy.pdb" /debug /machine:I386 /out:"Debug/MySpy.exe" /pdbtype:sept 
+.\Debug\FindWndDlg.obj
+.\Debug\Info.obj
+.\Debug\Inject.obj
+.\Debug\MainFrm.obj
+.\Debug\MessageDoc.obj
+.\Debug\MessageFrm.obj
+.\Debug\MessageView.obj
+.\Debug\MSG.OBJ
+.\Debug\MsgOpt_Wnd.obj
+.\Debug\MsgOptionDlg.obj
+.\Debug\MySpy.obj
+.\Debug\MyStatic.obj
+.\Debug\StdAfx.obj
+.\Debug\WindowDoc.obj
+.\Debug\WindowFrame.obj
+.\Debug\WindowPropertyDlg.obj
+.\Debug\WindowView.obj
+.\Debug\WndProperty_Class.obj
+.\Debug\WndProperty_General.obj
+.\Debug\WndProperty_Process.obj
+.\Debug\WndProperty_Style.obj
+.\Debug\WndProperty_Wnd.obj
+.\Debug\MySpy.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP322.tmp"
+<h3>Output Window</h3>
+Compiling...
+MySpy.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MySpy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by FileCopy.mak
+
+.\FileCopy.cpp : \
+	".\FileCopy.h"\
+	".\FileCopyDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\FileCopy.rc : \
+	".\res\FileCopy.ico"\
+	".\res\FileCopy.rc2"\
+	
+
+.\FileCopyDlg.cpp : \
+	".\FileCopy.h"\
+	".\FileCopyDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by Upload_Server.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\Upload_Server.cpp : \
+	".\StdAfx.h"\
+	".\Upload_Server.h"\
+	".\Upload_ServerDlg.h"\
+	
+
+.\Upload_Server.rc : \
+	".\res\Upload_Server.ico"\
+	".\res\Upload_Server.rc2"\
+	
+
+.\Upload_ServerDlg.cpp : \
+	".\StdAfx.h"\
+	".\Upload_Server.h"\
+	".\Upload_ServerDlg.h"\
+	

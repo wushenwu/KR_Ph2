@@ -1,0 +1,5 @@
+# Microsoft Developer Studio Generated Dependency File, included by CallerDLL.mak
+
+.\CallerDLL.cpp : \
+	"..\DLL\DLL.H"\
+	

@@ -1,0 +1,403 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ToolKit.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ToolKit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ToolKit"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ToolKit 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TOOLKIT_DIALOG DIALOGEX 0, 0, 591, 403
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ToolKit"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_STATIC,7,377,577,19
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_FOCUSONBUTTONDOWN | 
+                    WS_BORDER | WS_TABSTOP,7,0,577,372
+END
+
+IDD_DLG_PROCESS DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DLG_PROCESS_MODULE DIALOG DISCARDABLE  0, 0, 350, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+IDD_DLG_PROCESS_THREAD DIALOG DISCARDABLE  0, 0, 330, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DLG_PROCESS_WINDOW DIALOG DISCARDABLE  0, 0, 327, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DLG_PROCESS_MEMORY DIALOG DISCARDABLE  0, 0, 330, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DLG_INJECT DIALOG DISCARDABLE  0, 0, 227, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Inject"
+FONT 10, "System"
+BEGIN
+    LTEXT           "进程ID",IDC_STATIC,7,7,27,9
+    EDITTEXT        IDC_INJECT_PID,55,7,67,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "主窗口名称",IDC_STATIC,7,31,43,10
+    EDITTEXT        IDC_INJECT_WND,55,31,66,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "DLL路径",IDC_STATIC,7,64,37,11
+    EDITTEXT        IDC_INJECT_DLL_PATH,50,62,88,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "请选择",IDC_INJECT_DLL,152,62,33,17
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ToolKit Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ToolKit\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ToolKit.EXE\0"
+            VALUE "ProductName", "ToolKit 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOOLKIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 584
+        BOTTOMMARGIN, 396
+    END
+
+    IDD_DLG_PROCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_PROCESS_MODULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 343
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DLG_PROCESS_THREAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DLG_PROCESS_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DLG_PROCESS_MEMORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DLG_INJECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_PROCESS MENU DISCARDABLE 
+BEGIN
+    POPUP "_PROCESS"
+    BEGIN
+        MENUITEM "刷新",                        IDM_PROCESS_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "查看进程模块",                IDM_PROCESS_MODULE
+        MENUITEM "查看进程线程",                IDM_PROCESS_THREAD
+        MENUITEM "查看进程句柄",                IDM_PROCESS_HANDLE
+        POPUP "查看"
+        BEGIN
+            MENUITEM "查看进程窗口",                IDM_PROCESS_WINDOW
+            MENUITEM "查看进程内存",                IDM_RROCESS_MEM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "注入DLL",                     IDM_INJECT
+        MENUITEM SEPARATOR
+        MENUITEM "结束进程",                    IDM_PROCESS_TERMINATE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ToolKit(&A)..."
+    IDS_STR_PROCESS         "进程"
+    IDS_STR_DRIVER          "驱动模块"
+    IDS_STR_KERNEL          "内核"
+    IDS_STR_KERNEL_HOOK     "内核钩子"
+    IDS_STR_APP_HOOK        "应用层钩子"
+    IDS_STR_NETWORK         "网络"
+    IDS_STR_REG             "注册表"
+    IDS_STR_FILE            "文件"
+    IDS_STR_STARTUP         "启动项"
+    IDS_STR_SERVICE         "服务"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STR_OTHERS          "系统杂项"
+    IDS_STR_CHECK           "电脑体检"
+    IDS_STR_PROFILE         "配置"
+    IDS_STR_TODO            "TODO"
+    IDS_PROCESS_NAME        "映像名称"
+    IDS_PROCESS_ID          "进程ID"
+    IDS_PROCESS_PPID        "父进程ID"
+    IDS_PROCESS_PATH        "映像路径"
+    IDS_PROCESS_EPROCESS    "EPROCESS"
+    IDS_PROCESS_ACCESS      "应用层访问状态"
+    IDS_PROCESS_PRODUCT     "文件厂商"
+    IDS_PROCESS_TODO        "TODO"
+    IDS_MODULE_PATH         "模块路径"
+    IDS_MODULE_BASE         "基址"
+    IDS_MODULE_SIZE         "大小"
+    IDS_MODULE_PRODUCT      "文件厂商"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MODULE_TODO         "TODO"
+    IDS_THREAD_ID           "线程ID"
+    IDS_THREAD_ETHREAD      "ETHREAD"
+    IDS_THREAD_TEB          "TEB"
+    IDS_THREAD_PRIORITY     "优先级"
+    IDS_THREAD_ENTRY        "线程入口"
+    IDS_THREAD_MODULE       "模块"
+    IDS_THREAD_ROLL         "切换次数"
+    IDS_THREAD_STATE        "线程状态"
+    IDS_THREAD_TODO         "TODO"
+    IDS_WINDOW_HANDLE       "窗口句柄"
+    IDS_WINDOW_CAPTION      "窗口标题"
+    IDS_WINDOW_CLASS        "窗口类名"
+    IDS_WINDOW_VISUAL       "窗口可见性"
+    IDS_WINDOW_PID          "进程ID"
+    IDS_WINDOW_TID          "线程ID"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_WINDOW_TODO         "TODO"
+    IDS_MEM_ADDR            "地址"
+    IDS_MEM_SIZE            "大小"
+    IDS_MEM_PROTECT         "PROTECT"
+    IDS_MEM_STATE           "State"
+    IDS_MEM_TYPE            "Type"
+    IDS_MEM_MODULE          "模块名"
+    IDS_MEM_TODO            "TODO"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ToolKit.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

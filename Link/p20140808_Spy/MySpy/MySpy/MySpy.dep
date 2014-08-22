@@ -1,0 +1,46 @@
+# Microsoft Developer Studio Generated Dependency File, included by MySpy.mak
+
+.\ChildFrm.cpp : \
+	".\ChildFrm.h"\
+	".\MySpy.h"\
+	".\StdAfx.h"\
+	
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\MySpy.h"\
+	".\StdAfx.h"\
+	
+
+.\MySpy.cpp : \
+	".\ChildFrm.h"\
+	".\MainFrm.h"\
+	".\MySpy.h"\
+	".\MySpyDoc.h"\
+	".\MySpyView.h"\
+	".\StdAfx.h"\
+	
+
+.\MySpy.rc : \
+	".\res\MySpy.ico"\
+	".\res\MySpy.rc2"\
+	".\res\MySpyDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\MySpyDoc.cpp : \
+	".\MySpy.h"\
+	".\MySpyDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\MySpyView.cpp : \
+	".\MySpy.h"\
+	".\MySpyDoc.h"\
+	".\MySpyView.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

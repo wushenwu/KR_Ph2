@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ToolKit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ToolKit.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140801\wbxu_20140801\ToolKit\ProcessList.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ToolKit.pdb" /debug /machine:I386 /out:"Debug/ToolKit.exe" /pdbtype:sept 
+.\Debug\mylistctrl.obj
+.\Debug\ProcessDlg.obj
+.\Debug\ProcessList.obj
+.\Debug\ProcessMemoryDlg.obj
+.\Debug\ProcessMemoryList.obj
+.\Debug\ProcessModuleDlg.obj
+.\Debug\ProcessModuleList.obj
+.\Debug\ProcessThreadDlg.obj
+.\Debug\ProcessThreadList.obj
+.\Debug\ProcessWindowDlg.obj
+.\Debug\ProcessWindowList.obj
+.\Debug\StdAfx.obj
+.\Debug\ToolKit.obj
+.\Debug\ToolKitDlg.obj
+.\Debug\ToolKit.res
+.\Debug\InjectDlg.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BC.tmp"
+<h3>Output Window</h3>
+Compiling...
+ProcessList.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BD.tmp" with contents
+[
+/nologo /o"Debug/ToolKit.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\mylistctrl.sbr
+.\Debug\ProcessDlg.sbr
+.\Debug\ProcessList.sbr
+.\Debug\ProcessMemoryDlg.sbr
+.\Debug\ProcessMemoryList.sbr
+.\Debug\ProcessModuleDlg.sbr
+.\Debug\ProcessModuleList.sbr
+.\Debug\ProcessThreadDlg.sbr
+.\Debug\ProcessThreadList.sbr
+.\Debug\ProcessWindowDlg.sbr
+.\Debug\ProcessWindowList.sbr
+.\Debug\ToolKit.sbr
+.\Debug\ToolKitDlg.sbr
+.\Debug\InjectDlg.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2BD.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ToolKit.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

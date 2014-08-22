@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by WMCopyData.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\WMCopyData.cpp : \
+	".\StdAfx.h"\
+	".\WMCopyData.h"\
+	".\WMCopyDataDlg.h"\
+	
+
+.\WMCopyData.rc : \
+	".\res\WMCopyData.ico"\
+	".\res\WMCopyData.rc2"\
+	
+
+.\WMCopyDataDlg.cpp : \
+	".\StdAfx.h"\
+	".\WMCopyData.h"\
+	".\WMCopyDataDlg.h"\
+	

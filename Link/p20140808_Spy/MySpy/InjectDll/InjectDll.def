@@ -1,0 +1,5 @@
+EXPORTS
+    g_OldProc
+    g_nCount
+    g_hWnd
+    g_MSG

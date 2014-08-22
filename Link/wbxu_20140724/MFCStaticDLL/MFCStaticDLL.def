@@ -1,0 +1,8 @@
+; MFCStaticDLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MFCStaticDLL"
+DESCRIPTION  'MFCStaticDLL Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    ShowDlg

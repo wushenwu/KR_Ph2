@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Server.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\Server.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Server.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\MyPacket.cpp"
+"E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\MySocket.cpp"
+"E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\Server.cpp"
+"E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\ServerDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Server.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140815\UDP\Server\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Server.pdb" /debug /machine:I386 /out:"Debug/Server.exe" /pdbtype:sept 
+.\Debug\MyPacket.obj
+.\Debug\MySocket.obj
+.\Debug\Server.obj
+.\Debug\ServerDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Server.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7DD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MyPacket.cpp
+MySocket.cpp
+Server.cpp
+ServerDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

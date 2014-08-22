@@ -1,0 +1,6 @@
+EXPORTS
+    GetAddr   
+    SayHello  
+    Alias = SayHello 
+    g_nData 
+    

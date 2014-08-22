@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by RCT_Client.mak
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\RCT_Client.h"\
+	".\StdAfx.h"\
+	
+
+.\RCT_Client.cpp : \
+	".\MainFrm.h"\
+	".\RCT_Client.h"\
+	".\RCT_ClientDoc.h"\
+	".\RCT_ClientView.h"\
+	".\StdAfx.h"\
+	
+
+.\RCT_Client.rc : \
+	".\res\RCT_Client.ico"\
+	".\res\RCT_Client.rc2"\
+	".\res\RCT_ClientDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\RCT_ClientDoc.cpp : \
+	".\RCT_Client.h"\
+	".\RCT_ClientDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\RCT_ClientView.cpp : \
+	".\RCT_Client.h"\
+	".\RCT_ClientDoc.h"\
+	".\RCT_ClientView.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

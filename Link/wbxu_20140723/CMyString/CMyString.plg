@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CMyString - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CMYSTRING_EXPORTS" /Fp"Debug/CMyString.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140723\wbxu_20140723\CMyString\CMyString.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/CMyString.pdb" /debug /machine:I386 /out:"../Bin/Debug/CMyString.dll" /implib:"Debug/CMyString.lib" /pdbtype:sept 
+.\Debug\CMyString.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP25B.tmp"
+<h3>Output Window</h3>
+Compiling...
+CMyString.cpp
+Linking...
+   Creating library Debug/CMyString.lib and object Debug/CMyString.exp
+
+
+
+<h3>Results</h3>
+CMyString.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

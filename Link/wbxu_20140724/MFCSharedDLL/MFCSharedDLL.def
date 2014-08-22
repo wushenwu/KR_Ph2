@@ -1,0 +1,8 @@
+; MFCSharedDLL.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MFCSharedDLL"
+DESCRIPTION  'MFCSharedDLL Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    ShowDlgShared

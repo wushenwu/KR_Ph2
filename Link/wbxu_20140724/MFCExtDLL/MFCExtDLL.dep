@@ -1,0 +1,13 @@
+# Microsoft Developer Studio Generated Dependency File, included by MFCExtDLL.mak
+
+.\MFCExtDLL.cpp : \
+	".\StdAfx.h"\
+	
+
+.\MFCExtDLL.rc : \
+	".\res\MFCExtDLL.rc2"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

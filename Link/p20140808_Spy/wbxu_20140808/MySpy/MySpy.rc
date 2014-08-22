@@ -1,0 +1,776 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MySpy.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MySpy.ico"
+IDR_MYSPYTYPE           ICON    DISCARDABLE     "res\\MySpyDoc.ico"
+IDI_FIND                ICON    DISCARDABLE     "res\\8.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Spy"
+    BEGIN
+        MENUITEM "&Messages...\tCtrl+M",        IDM_Msg
+        MENUITEM "&Windows\tCtrl+W",            5010
+        MENUITEM "&Processes\tCtrl+P",          5011
+        MENUITEM "&Threads\tCtrl+T",            5012
+        MENUITEM SEPARATOR
+        MENUITEM "&Find Window...\tCtrl+F",     IDM_FINDWND
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Tree"
+    BEGIN
+        MENUITEM "E&xpand One Level\tNum +",    5019
+        MENUITEM "Expand &Branch\tNum *",       5020
+        MENUITEM "Expand &All\tCtrl+Num *",     5021
+        MENUITEM "&Collapse\tNum -",            5022
+    END
+    POPUP "S&earch"
+    BEGIN
+        MENUITEM "&Find Object...\tAlt+F3",     5024
+        MENUITEM SEPARATOR
+        MENUITEM "Find &Next\tF3",              5025
+        MENUITEM "Find &Previous\tShift+F3",    5026
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Font...",                    5013
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...\tAlt+Enter",   5003
+    END
+    POPUP "&Messages"
+    BEGIN
+        MENUITEM "&Start Logging\tF8",          IDM_MSG_START_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...\tCtrl+O",         5017
+        MENUITEM SEPARATOR
+        MENUITEM "&Clear\tDel",                 5016
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    57650
+        MENUITEM "Tile &Horizontally\tCtrl+H",  57651
+        MENUITEM "Tile &Vertically\tCtrl+V",    57652
+        MENUITEM "&Arrange Icons",              57649
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      5029
+        MENUITEM "Close A&ll",                  5030
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh\tF5",                5008
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      57666
+        MENUITEM "&Using Help",                 57668
+        MENUITEM SEPARATOR
+        MENUITEM "&About Spy++...",             ID_APP_ABOUT
+    END
+END
+
+IDR_MYSPYTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Spy"
+    BEGIN
+        MENUITEM "&Messages...\tCtrl+M",        IDM_Msg
+        MENUITEM "&Windows\tCtrl+W",            5010
+        MENUITEM "&Processes\tCtrl+P",          5011
+        MENUITEM "&Threads\tCtrl+T",            5012
+        MENUITEM SEPARATOR
+        MENUITEM "&Find Window...\tCtrl+F",     IDM_FINDWND
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Tree"
+    BEGIN
+        MENUITEM "E&xpand One Level\tNum +",    5019
+        MENUITEM "Expand &Branch\tNum *",       5020
+        MENUITEM "Expand &All\tCtrl+Num *",     5021
+        MENUITEM "&Collapse\tNum -",            5022
+    END
+    POPUP "S&earch"
+    BEGIN
+        MENUITEM "&Find Object...\tAlt+F3",     5024
+        MENUITEM SEPARATOR
+        MENUITEM "Find &Next\tF3",              5025
+        MENUITEM "Find &Previous\tShift+F3",    5026
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Font...",                    5013
+        MENUITEM SEPARATOR
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Properties...\tAlt+Enter",   5003
+    END
+    POPUP "&Messages"
+    BEGIN
+        MENUITEM "&Start Logging\tF8",          IDM_MSG_START_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Options...\tCtrl+O",         5017
+        MENUITEM SEPARATOR
+        MENUITEM "&Clear\tDel",                 5016
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&Cascade",                    57650
+        MENUITEM "Tile &Horizontally\tCtrl+H",  57651
+        MENUITEM "Tile &Vertically\tCtrl+V",    57652
+        MENUITEM "&Arrange Icons",              57649
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      5029
+        MENUITEM "Close A&ll",                  5030
+        MENUITEM SEPARATOR
+        MENUITEM "&Refresh\tF5",                5008
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      57666
+        MENUITEM "&Using Help",                 57668
+        MENUITEM SEPARATOR
+        MENUITEM "&About Spy++...",             ID_APP_ABOUT
+    END
+END
+
+IDR_WINDOW MENU DISCARDABLE 
+BEGIN
+    POPUP "&Spy"
+    BEGIN
+        MENUITEM "&Messages...\tCtrl+M",        IDM_Msg
+        MENUITEM "&Windows\tCtrl+W",            IDM_WND
+        MENUITEM "&Processes\tCtrl+P",          5011
+        MENUITEM "&Threads\tCtrl+T",            5012
+        MENUITEM SEPARATOR
+        MENUITEM "&Find Window...\tCtrl+F",     IDM_FINDWND
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Tree"
+    BEGIN
+        MENUITEM "E&xpand One Level\tNum +",    5019
+        MENUITEM "Expand &Branch\tNum *",       5020
+        MENUITEM "Expand &All\tCtrl+Num *",     5021
+        MENUITEM "&Collapse\tNum -",            5022
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MySpy"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MySpy 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DLG_FINDWND DIALOG DISCARDABLE  0, 0, 183, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Window"
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "Window Finder",IDC_STATIC,2,3,142,152
+    LTEXT           "Drag the Finder Tool over a window to select it, then release the mouse button.  Or enter a window handle (in hexadecimal).",
+                    IDC_STATIC,6,11,136,34
+    LTEXT           "Finder Tool:",IDC_STATIC,5,50,40,8
+    ICON            IDI_FIND,ID_FIND_TOOL,52,46,20,20,SS_NOTIFY
+    CONTROL         "Hi&de Spy++",ID_FIND_HIDE,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,80,50,51,8
+    LTEXT           "H&andle:",IDC_STATIC,4,70,27,9
+    EDITTEXT        IDC_FIND_HANDLE,38,67,42,12,ES_AUTOHSCROLL
+    LTEXT           "Caption:",IDC_STATIC,3,88,28,8
+    LTEXT           "Class:",IDC_STATIC,3,107,25,8
+    LTEXT           "Style:",IDC_STATIC,2,123,25,8
+    LTEXT           "Rect:",IDC_STATIC,2,141,25,8
+    LTEXT           "",IDC_FIND_CAPTION,46,88,96,8,SS_SUNKEN
+    LTEXT           "",IDC_FIND_CLASS,46,107,96,10,SS_SUNKEN
+    LTEXT           "",1622,46,99,84,8
+    LTEXT           "",IDC_FIND_RECT,28,141,114,8,SS_SUNKEN
+    GROUPBOX        "Show",IDC_STATIC,2,156,141,18
+    CONTROL         "&Properties",IDC_FIND_PROPER,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,6,165,49,8
+    CONTROL         "&Messages",IDC_FIND_MSG,"Button",BS_AUTORADIOBUTTON,77,
+                    165,40,8
+    PUSHBUTTON      "OK",IDC_FIND_OK,152,8,25,10
+    PUSHBUTTON      "Cancel",IDC_FIND_CANCEL,152,25,25,10
+    PUSHBUTTON      "Help",IDC_BUTTON3,152,43,25,10
+    LTEXT           "",IDC_FIND_STYLE,46,124,96,8,SS_SUNKEN
+END
+
+IDD_DLG_WNDPROPERITY DIALOG DISCARDABLE  0, 0, 289, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Window Properities"
+FONT 10, "System"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_WNDPROPERTY,"SysTabControl32",0x0,1,2,288,
+                    164
+END
+
+IDD_WNDPROPERTY_CLASS DIALOG DISCARDABLE  0, 0, 243, 162
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Class Name:",IDC_STATIC,7,7,42,11
+    LTEXT           "",IDC_WND_CLASSNAME,55,7,67,11,SS_SUNKEN
+    LTEXT           "Class Style:",IDC_STATIC,7,26,40,11
+    LTEXT           "",IDC_WND_CLASSSTYLE,53,25,71,13
+    LTEXT           "Class Bytes:",IDC_STATIC,7,44,43,11
+    LTEXT           "",IDC_WND_CLASSBYTES,55,45,69,10
+    LTEXT           "Class Atom:",IDC_STATIC,7,63,40,11
+    LTEXT           "",IDC_WND_CLASSATOM,52,65,68,10
+    LTEXT           "Window Bytes:",IDC_STATIC,7,79,49,8
+    LTEXT           "Menu Name:",IDC_STATIC,7,92,45,8
+    LTEXT           "",IDC_WND_WNDBYTES,69,79,61,9
+    LTEXT           "",IDC_WND_MENUNAME,59,93,56,9
+    LTEXT           "Icon Handle:",IDC_STATIC,7,108,47,9
+    LTEXT           "",IDC_WND_ICONHANDLE,57,106,65,13
+    LTEXT           "Cursor Handle:",IDC_STATIC,7,122,52,9
+    LTEXT           "",IDC_WND_CURSORHANDLE,64,120,57,13
+    LTEXT           "Bkgnd Brush:",IDC_STATIC,7,140,47,15
+    LTEXT           "",IDC_WND_BKGBRUSH,59,138,65,17
+    LTEXT           "Instance Handle:",IDC_STATIC,130,63,56,8
+    LTEXT           "",IDC_WND_INSTANCEHANDLE,190,63,46,11
+    LTEXT           "Wnd Proc:",IDC_STATIC,134,82,39,10
+    LTEXT           "",IDC_WND_WNDPROC,179,79,57,14
+END
+
+IDD_WNDPROPER_GENERAL DIALOG DISCARDABLE  0, 0, 187, 134
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Window Handle:",-1,0,15,53,8
+    LTEXT           "",IDC_GEN_WNDHANDLE,73,18,93,8
+    LTEXT           "Window Caption:",-1,0,4,62,8
+    EDITTEXT        IDC_GEN_WNDCAP,73,3,93,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Rectangle:",-1,0,37,38,8
+    LTEXT           "",IDC_GEN_WNDPROC,73,30,97,8
+    LTEXT           "Restored Rect:",-1,0,51,53,8
+    LTEXT           "",IDC_GEN_RESTOREDRECT,57,52,111,8
+    LTEXT           "Client Rect:",-1,0,66,53,8
+    LTEXT           "",IDC_GEN_WNDRECT,47,39,121,8
+    LTEXT           "Menu Handle:",209,0,91,53,8
+    LTEXT           "",IDC_GEN_HINSTANCE,76,78,93,8
+    LTEXT           "User Data:",-1,1,106,53,8
+    LTEXT           "",IDC_GEN_MENUHANDLE,75,91,93,8
+    LTEXT           "Window Bytes:",-1,0,122,53,8
+    COMBOBOX        IDC_GEN_WNDBYTES,73,119,93,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Instance Handle:",-1,0,79,53,8
+    LTEXT           "Window Proc:",-1,0,26,53,8
+    LTEXT           "",IDC_GEN_USERDATA,74,105,84,8
+    LTEXT           "",IDC_GEN_CLIENTRECT,57,65,108,8
+END
+
+IDD_WNDPROPERTY_STYLE DIALOG DISCARDABLE  0, 0, 196, 133
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Window Styles:",-1,7,7,60,10
+    LTEXT           "",IDC_STYLE_WND,66,7,49,10
+    LISTBOX         IDC_STYLE_WND_LB,7,22,110,30,WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Extended Styles:",-1,7,59,58,10
+    LTEXT           "",IDC_STYLE_EX,67,57,49,10
+    LISTBOX         IDC_STYLE_EX_LB,7,71,110,55,WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_WNDPROPERTY_WND DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Next Window:",-1,3,0,52,8
+    LTEXT           "",IDC_WND_NEXT,56,0,47,8
+    LTEXT           "Previous Window:",-1,2,22,52,8
+    LTEXT           "",IDC_WND_PRE,56,22,47,8
+    LTEXT           "Parent Window:",-1,2,41,52,8
+    LTEXT           "",IDC_WND_PARENT,56,41,47,8
+    LTEXT           "First Child:",-1,0,60,52,8
+    LTEXT           "",IDC_WND_1stChild,56,60,47,8
+    LTEXT           "Owner Window:",-1,0,78,52,8
+    LTEXT           "",IDC_WND_OWNER,56,76,47,8
+END
+
+IDD_WNDPROPERTY_PROCESS DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Process ID:",IDC_STATIC,7,7,40,12
+    LTEXT           "Thread ID:",IDC_STATIC,7,28,36,11
+    EDITTEXT        IDC_PROCESS_PID,54,7,56,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROCESS_TID,53,28,57,12,ES_AUTOHSCROLL
+END
+
+IDD_MSG_OPTIONS DIALOG DISCARDABLE  0, 0, 254, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message Options"
+FONT 10, "System"
+BEGIN
+    CONTROL         "Tab1",IDC_MSG_OPTION_TAB,"SysTabControl32",0x0,7,7,240,
+                    123
+    PUSHBUTTON      "OK",IDC_MSG_OK,7,135,38,15
+    PUSHBUTTON      "CANCEL",IDC_MSG_CANCEL,58,137,33,13
+    PUSHBUTTON      "Help",IDC_MSG_HELP,101,138,35,12
+END
+
+IDD_MSG_WND DIALOG DISCARDABLE  0, 0, 239, 141
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "Window Finder Tool",IDC_STATIC,0,0,88,67
+    LTEXT           "Drag the Finder Tool over a window to select, then release the mouse button.",
+                    IDC_STATIC,4,10,69,25
+    LTEXT           "Finder Tool:",IDC_STATIC,4,38,40,8
+    ICON            IDI_FIND,IDC_MSG_FIND_TOOL,49,34,16,16,SS_NOTIFY
+    CONTROL         "Hi&de Spy++",IDC_MSG_FIND_HIDE,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,3,57,47,8
+    GROUPBOX        "Selected Object",IDC_STATIC,103,0,129,85
+    LTEXT           "Window:",IDC_STATIC,104,11,31,8
+    LTEXT           "",IDC_MSG_PID,146,74,86,8
+    LTEXT           "Text:",IDC_STATIC,103,21,28,8
+    LTEXT           "",IDC_MSG_WND,138,11,86,8
+    LTEXT           "",IDC_MSG_TID,146,64,86,8
+    LTEXT           "Style:",1419,103,42,25,8
+    LTEXT           "",IDC_MSG_WND_TEXT,146,23,86,8
+    LTEXT           "Rect:",1417,104,52,21,8
+    LTEXT           "",IDC_MSG_WNDCLASS,146,34,86,8
+    LTEXT           "Thread ID:",1423,102,64,36,8
+    LTEXT           "Process ID:",1415,103,76,41,8
+    GROUPBOX        "Additional Windows",IDC_STATIC,0,85,232,36,WS_GROUP
+    CONTROL         "Pa&rent",IDC_MSG_ADD_PARENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,94,39,8
+    CONTROL         "&Children",IDC_MSG_ADD_CHILD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,108,38,8
+    CONTROL         "Windows of Same &Thread",IDC_MSG_ADD_THREAD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,47,94,94,8
+    CONTROL         "Windows of Same &Process",IDC_MSG_ADD_PROCESS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,47,107,96,8
+    CONTROL         "&All Windows in System",IDC_MSG_ADD_ALL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,146,96,86,8
+    CONTROL         "&Save Settings as Default",1408,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,0,134,95,8
+    LTEXT           "Class:",IDC_STATIC,104,31,22,9
+    LTEXT           "",IDC_MSG_RECT,129,53,103,8
+    LTEXT           "",IDC_MSG_STYLE,145,43,64,9
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MySpy Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MySpy\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MySpy.EXE\0"
+            VALUE "ProductName", "MySpy 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLG_WNDPROPERITY, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 227
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_WNDPROPERTY_CLASS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_WNDPROPER_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_WNDPROPERTY_STYLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_WNDPROPERTY_WND, DIALOG
+    BEGIN
+        RIGHTMARGIN, 180
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_WNDPROPERTY_PROCESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_MSG_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_MSG_WND, DIALOG
+    BEGIN
+        RIGHTMARGIN, 232
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_FIND_CUR            CURSOR  DISCARDABLE     "res\\10.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "MySpy"
+    IDR_MYSPYTYPE           "\nMySpy\nMySpy\n\n\nMySpy.Document\nMySpy Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MySpy"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "将图标排列在窗口底部\n排列图标"
+    ID_WINDOW_CASCADE       "排列窗口成相互重叠\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "排列窗口成互不重叠\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+    AFX_IDS_MDICHILD        "激活该窗口"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_WINDOW              "\nWindow\nWindow\n\n\nWindow.Document\nWindowDocument"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MySpy.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

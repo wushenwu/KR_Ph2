@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by CallWindow.mak
+
+.\CallWindow.cpp : \
+	".\CallWindow.h"\
+	".\CallWindowDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\CallWindow.rc : \
+	".\res\CallWindow.ico"\
+	".\res\CallWindow.rc2"\
+	
+
+.\CallWindowDlg.cpp : \
+	".\CallWindow.h"\
+	".\CallWindowDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

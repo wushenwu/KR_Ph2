@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by ToolKit.mak
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\ToolKit.cpp : \
+	".\StdAfx.h"\
+	".\ToolKit.h"\
+	".\ToolKitDlg.h"\
+	
+
+.\ToolKit.rc : \
+	".\res\ToolKit.ico"\
+	".\res\ToolKit.rc2"\
+	
+
+.\ToolKitDlg.cpp : \
+	".\StdAfx.h"\
+	".\ToolKit.h"\
+	".\ToolKitDlg.h"\
+	

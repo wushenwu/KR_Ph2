@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFCExtDLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MFCExtDLL.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programming\Git\Ph2\Link\Program\p20140724\wbxu_20140724\MFCExtDLL\MFCExtDLL.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/MFCExtDLL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ    /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140724\wbxu_20140724\MFCExtDLL\MFCExtDLL.cpp"
+"E:\Programming\Git\Ph2\Link\Program\p20140724\wbxu_20140724\MFCExtDLL\MyButton.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Debug/MFCExtDLL.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ    /c 
+"E:\Programming\Git\Ph2\Link\Program\p20140724\wbxu_20140724\MFCExtDLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP330.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/MFCExtDLL.pdb" /debug /machine:I386 /def:".\MFCExtDLL.def" /out:"../CallWindow/Debug/MFCExtDLL.dll" /implib:"Debug/MFCExtDLL.lib" /pdbtype:sept 
+.\Debug\MFCExtDLL.obj
+.\Debug\StdAfx.obj
+.\Debug\MFCExtDLL.res
+.\Debug\MyButton.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP330.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MFCExtDLL.cpp
+MyButton.cpp
+Generating Code...
+Linking...
+   Creating library Debug/MFCExtDLL.lib and object Debug/MFCExtDLL.exp
+
+
+
+<h3>Results</h3>
+MFCExtDLL.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

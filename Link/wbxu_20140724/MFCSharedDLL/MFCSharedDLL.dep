@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by MFCSharedDLL.mak
+
+.\MFCSharedDLL.cpp : \
+	".\MFCSharedDLL.h"\
+	".\StdAfx.h"\
+	
+
+.\MFCSharedDLL.rc : \
+	".\res\MFCSharedDLL.rc2"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

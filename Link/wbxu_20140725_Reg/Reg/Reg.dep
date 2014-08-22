@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by Reg.mak
+
+.\MainFrm.cpp : \
+	".\MainFrm.h"\
+	".\Reg.h"\
+	".\StdAfx.h"\
+	
+
+.\Reg.cpp : \
+	".\MainFrm.h"\
+	".\Reg.h"\
+	".\RegDoc.h"\
+	".\RegView.h"\
+	".\StdAfx.h"\
+	
+
+.\Reg.rc : \
+	".\res\Reg.ico"\
+	".\res\Reg.rc2"\
+	".\res\RegDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\RegDoc.cpp : \
+	".\Reg.h"\
+	".\RegDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\RegView.cpp : \
+	".\Reg.h"\
+	".\RegDoc.h"\
+	".\RegView.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

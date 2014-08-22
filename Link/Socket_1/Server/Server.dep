@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by Server.mak
+
+.\Server.cpp : \
+	".\Server.h"\
+	".\ServerDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\Server.rc : \
+	".\res\Server.ico"\
+	".\res\Server.rc2"\
+	
+
+.\ServerDlg.cpp : \
+	".\Server.h"\
+	".\ServerDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
