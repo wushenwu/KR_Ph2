@@ -1,0 +1,14 @@
+# Microsoft Developer Studio Generated Dependency File, included by HelloWorld.mak
+
+.\HelloWorld.cpp : \
+	".\StdAfx.h"\
+	
+
+.\HelloWorld.rc : \
+	".\HelloWorld.ico"\
+	".\small.ico"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
