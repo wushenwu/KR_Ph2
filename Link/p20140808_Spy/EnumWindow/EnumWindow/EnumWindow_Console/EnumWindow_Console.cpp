@@ -1,35 +1,85 @@
 #include <windows.h>
 #include <stdio.h>
 
+static int i = 0;
 BOOL CALLBACK EnumChildProc(
                             HWND hwnd,      // handle to child window
                             LPARAM lParam   // application-defined value
                             )
 {
-    HWND hParent = GetParent(hwnd);
-    if (hParent == (HWND)lParam)
-    {
-        //为子窗口
-        printf("\t0x%08p\r\n", hwnd);
+    printf("%d  %p\r\n", i, hwnd);
+    i++;
 
-        //并遍历其子窗口
-        EnumChildWindows(hwnd, EnumChildProc, (LPARAM)hwnd);
-    }
-    else
-    {
-        int n = 0;
-    }
     return TRUE;
 }
 
+void TestEnumChildWindows()
+{
+    HWND hDeskTop = ::GetDesktopWindow();
+    
+    ::EnumChildWindows(hDeskTop, EnumChildProc, (LPARAM)hDeskTop);
+}
+
+BOOL CALLBACK EnumWindowsProc(
+                              HWND hwnd,      // handle to parent window
+                              LPARAM lParam   // application-defined value
+                              )
+{
+    printf("%d  %p\r\n", i, hwnd);
+    i++;
+
+    return TRUE;
+}
+
+void TestEnumWindows()
+{
+    HWND hDeskTop = ::GetDesktopWindow();
+
+    EnumWindows(EnumWindowsProc,(LPARAM) hDeskTop);
+}
+
+void EnumZOrder(HWND hCurrent, char *szTab)
+{
+    //输出自身
+    printf("%s%d  %p\r\n", szTab, i, hCurrent);
+    i++;
+
+    HWND hChild = NULL;
+    HWND hNext  = NULL;
+
+    //先来遍历child
+    hChild = ::GetWindow(hCurrent, GW_CHILD);
+    if (hChild != NULL)
+    {
+        char szTabTmp[MAXBYTE];
+        wsprintf(szTabTmp, "%s\t", szTab);
+
+        EnumZOrder(hChild, szTabTmp);
+    }
+
+    //再来遍历next
+    hNext = ::GetWindow(hCurrent, GW_HWNDNEXT);
+    if (hNext != NULL)
+    {
+        EnumZOrder(hNext, szTab);
+    }
+}
+
+void TestZOrder()
+{
+    HWND hDeskTop = ::GetDesktopWindow();
+    
+    EnumZOrder(hDeskTop, "");
+}
 
 int
 main(void)
 {
-    HWND hWnd = (HWND)0x00020094;
-    printf("0x%08p\r\n", hWnd);
+    //TestEnumWindows();
 
-    ::EnumChildWindows(hWnd, EnumChildProc, (LPARAM)hWnd);
+    //TestEnumChildWindows();
+
+    TestZOrder();
 
     return 0;
 }

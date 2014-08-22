@@ -125,31 +125,33 @@ typedef struct _tagWndItem
 
 static CTreeCtrl *pctrl;
 static CString str;
+static CString strWndText;
+static CString strClassName;
 
-BOOL CALLBACK EnumChildProc(
-                            HWND hwnd,      // handle to child window
-                            LPARAM lParam   // application-defined value
-                            )
+void EnumZOrder(HWND hCurrent, HTREEITEM hParentTree)
 {
-    tagWndItem *pItem = (tagWndItem *)lParam;
-    str.Format("0x%08p", hwnd);
+    //先将自身插入到父节点的孩子中
+    ::GetWindowText(hCurrent, strWndText.GetBuffer(0), MAXBYTE);
+    ::GetClassName(hCurrent, strClassName.GetBuffer(0), MAXBYTE);
+    str.Format("0x%08p \"%s\" \"%s\"", 
+                    hCurrent,
+                    strWndText,
+                    strClassName);
+    HTREEITEM hSubTree = pctrl->InsertItem(str, hParentTree);
 
-    HWND hParent = GetParent(hwnd);
-    if (hParent == (HWND)pItem->m_hWnd)
+    //先处理child
+    HWND hChild = ::GetWindow(hCurrent, GW_CHILD);
+    if (hChild != NULL)
     {
-        //为子窗口, 插入到父窗口树下
-        
-        HTREEITEM hSubTree = pctrl->InsertItem(str, pItem->m_hParentTree);
-        
-        //并遍历其子窗口
-        tagWndItem tmpItem = {hwnd, hSubTree}; 
-        EnumChildWindows(hwnd, EnumChildProc, (LPARAM)&tmpItem);
+        EnumZOrder(hChild, hSubTree);
     }
-    else
+
+    //再处理next
+    HWND hNext = ::GetWindow(hCurrent, GW_HWNDNEXT);
+    if (hNext != NULL)
     {
-        int n = 0;
+        EnumZOrder(hNext, hParentTree);
     }
-    return TRUE;
 }
 
 void CEnumWindow_GUIView::EnumAllWindows()
@@ -162,7 +164,6 @@ void CEnumWindow_GUIView::EnumAllWindows()
     str.Format("0x%08p", hWndDeskTop);
     HTREEITEM hParentTree = pctrl->InsertItem(str, 0);
 
-    //对子窗口进行遍历
-    tagWndItem Item = {hWndDeskTop, hParentTree};
-    ::EnumChildWindows(hWndDeskTop, EnumChildProc, (LPARAM)&Item);
+    HWND hChild = ::GetWindow(hWndDeskTop, GW_CHILD);
+    EnumZOrder(hChild, hParentTree);
 }
