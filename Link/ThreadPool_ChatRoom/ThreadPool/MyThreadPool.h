@@ -51,6 +51,7 @@ protected:
 
     //用于清理性操作
     BOOL m_bDestroyed;
+    BOOL m_bCreated;
 };
 
 #endif // !defined(AFX_MYTHREADPOOL_H__7EE5F64F_E84C_4F66_B4BB_83E412A9C0FC__INCLUDED_)

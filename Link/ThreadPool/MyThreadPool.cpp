@@ -25,6 +25,7 @@ CMyThreadPool::CMyThreadPool()
 {
     m_phThreads = NULL;
     m_bDestroyed = FALSE;
+    m_bCreated  = FALSE;
 
     //临界区的初始化
     ::InitializeCriticalSection(&m_CS);
@@ -63,6 +64,8 @@ BOOL CMyThreadPool::Create(int nThreads, int nTasks, LPVOID pParam)
         return FALSE;
     }
 
+    m_bCreated = TRUE;
+
     return TRUE;
 }
 
@@ -100,6 +103,11 @@ void CMyThreadPool::ThreadProc(LPVOID pParam)
 
 void CMyThreadPool::Destroy()
 {
+    if (!m_bCreated)
+    {
+        return;
+    }
+
     //
     m_bDestroyed = TRUE;
 
