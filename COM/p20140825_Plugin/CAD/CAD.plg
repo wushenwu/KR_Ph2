@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CAD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP431.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/CAD.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programming\Git\Ph2\COM\Program\p20140825_Plugin\CAD\CADDoc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP431.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP432.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CAD.pdb" /debug /machine:I386 /out:"Debug/CAD.exe" /pdbtype:sept 
+.\Debug\MyEllipse.obj
+.\Debug\MyEllipseFactory.obj
+.\Debug\MyLine.obj
+.\Debug\MyLineFactory.obj
+.\Debug\MyRect.obj
+.\Debug\MyRectFactory.obj
+.\Debug\MyShape.obj
+.\Debug\MyShapeFactory.obj
+.\Debug\CAD.obj
+.\Debug\CADDoc.obj
+.\Debug\CADView.obj
+.\Debug\MainFrm.obj
+.\Debug\MyList.obj
+.\Debug\StdAfx.obj
+.\Debug\MyCmdMgr.obj
+.\Debug\MyCommand.obj
+.\Debug\MyDeleteCommand.obj
+.\Debug\MyDrawCommand.obj
+.\Debug\MyModifyCommand.obj
+.\Debug\MyColorBtn.obj
+.\Debug\setdlg.obj
+.\Debug\MyEditView.obj
+.\Debug\shapestreeview.obj
+.\Debug\CAD.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP432.tmp"
+<h3>Output Window</h3>
+Compiling...
+CADDoc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CAD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

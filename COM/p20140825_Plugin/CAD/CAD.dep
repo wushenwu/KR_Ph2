@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by CAD.mak
+
+.\CAD.cpp : \
+	".\CAD.h"\
+	".\CADDoc.h"\
+	".\CADView.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	
+
+.\CAD.rc : \
+	".\res\CAD.ico"\
+	".\res\CAD.rc2"\
+	".\res\CADDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\CADDoc.cpp : \
+	".\CAD.h"\
+	".\CADDoc.h"\
+	".\StdAfx.h"\
+	
+
+.\CADView.cpp : \
+	".\CAD.h"\
+	".\CADDoc.h"\
+	".\CADView.h"\
+	".\StdAfx.h"\
+	
+
+.\MainFrm.cpp : \
+	".\CAD.h"\
+	".\MainFrm.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
